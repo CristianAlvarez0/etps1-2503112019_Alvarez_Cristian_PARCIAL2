@@ -7,11 +7,12 @@ import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
 
-    String [] personas={"Alexander Pierrot","Carlos Lopez","Sara Bonz", "Liliana Clarence", "Benito Peralta", "Juan Jaramillo", "Christian Steps", "Alexa Giraldo", "Linda Murillo", "Lizeth Astrada"};
-    String [] cargo={"CEO ","Asistente ","Directora de Marketing", "Diseñadora de Producto", "Supervisor de Ventas", "CEO", "CTO", "Lead Programmer", "Directora de Marketing", "CEO"};
-    String [] compañia={"Insures S.O.","Hospital Blue","Electrical Parts Itd", "Creativa App", "Neumaticos Press", "Banco Nacional", "Cooperativa Verde", "Frutisofy", "Seguros Boliver", "Concesionario Motolox"};
+    String [] personas={"Cristian Armando Alvarez Alvaez","Alexander Pierrot","Carlos Lopez","Sara Bonz", "Liliana Clarence", "Benito Peralta", "Juan Jaramillo", "Christian Steps", "Alexa Giraldo", "Linda Murillo", "Lizeth Astrada"};
+    String [] cargo={"CEO","CEO ","Asistente ","Directora de Marketing", "Diseñadora de Producto", "Supervisor de Ventas", "CEO", "CTO", "Lead Programmer", "Directora de Marketing", "CEO"};
+    String [] compañia={"UTEC","Insures S.O.","Hospital Blue","Electrical Parts Itd", "Creativa App", "Neumaticos Press", "Banco Nacional", "Cooperativa Verde", "Frutisofy", "Seguros Boliver", "Concesionario Motolox"};
     ListView lvstPersonas;
     Integer []ImgPers= {
+            R.drawable.personal,
             R.drawable.lead_photo_1,
             R.drawable.lead_photo_2,
             R.drawable.lead_photo_3,
